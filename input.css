@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+  background-color: hsl(176, 68%, 64%);
+  color: #fff;
+}
+
+.ficon:hover {
+  background-color: hsl(176, 68%, 64%);
+}
